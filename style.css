@@ -1,0 +1,35 @@
+.item{
+    background: grey;
+    border: 3px solid black;
+    padding: 15px;
+}
+h2{
+    margin: 0;
+
+}
+a{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 20px ; 
+    height: 500px;
+    justify-content: center;
+    justify-content: baseline;
+}
+
+h1{
+    background-color: aqua;
+    text-align: center;
+    grid-column: 1/-1;
+    border-radius: 100px;
+  
+}
+#loja{
+      align-items: center;
+    justify-content: center;
+}
